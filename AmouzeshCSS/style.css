@@ -1,0 +1,165 @@
+.onvan1 {
+  color: blue;
+}
+
+.onvan2 {
+  color: green;
+}
+
+.onvan3 {
+  color: red;
+}
+
+.onvan4 {
+  color: brown;
+}
+
+div span {
+  font-family: fantasy;
+}
+
+a[href*=https] {
+  color: brown;
+  font-weight: bolder;
+}
+
+#header {
+  font-weight: bold;
+  width: 100%;
+  padding: 1% 0%;
+}
+
+#tarahi {
+  text-align: center;
+}
+
+.ab {
+  font-weight: bold;
+  right: 92%;
+}
+
+@media (max-width: 62.5rem) {
+  .headerone {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+  }
+}
+@media (min-width: 1001px) {
+  .headerone {
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    padding-right: 3%;
+  }
+  #ba {
+    text-align: left;
+  }
+}
+.profiles {
+  display: grid;
+  justify-items: center;
+  font-size: larger;
+  font-style: italic;
+  line-height: 150%;
+  background-color: rgba(165, 42, 42, 0.336);
+  padding: 5% 2% 5% 2%;
+}
+
+@media (min-width: 1001px) {
+  .profiles {
+    grid-template-columns: 48% 48%;
+  }
+}
+
+.onvan2 {
+  color: green;
+}
+
+.onvan4 {
+  color: brown;
+}
+
+.title5 {
+  background-color: aliceblue;
+}
+
+.title6 {
+  background-color: antiquewhite;
+}
+
+.title7 {
+  background-color: azure;
+}
+
+.title8 {
+  background-color: beige;
+}
+
+#n1 {
+  background-color: beige;
+  display: grid;
+  justify-items: center;
+}
+
+@media (min-width: 1001px) {
+  #n1 {
+    display: grid;
+    grid-template-columns: 48% 48%;
+  }
+}
+.table {
+  background-color: #9da1b1;
+}
+
+@media (max-width: 62.5rem) {
+  .table {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 7rem 7rem 4rem 5rem 6rem;
+  }
+  .item-1 {
+    width: 100%;
+  }
+  .item-2 {
+    width: 100%;
+  }
+  .item-3 {
+    width: 100%;
+  }
+  .item-4 {
+    width: 100%;
+  }
+  .item-5 {
+    width: 100%;
+  }
+}
+@media (min-width: 1001px) {
+  .table {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 48% 48% 96%;
+    justify-items: center;
+    margin-bottom: 1%;
+  }
+  .item-3 {
+    display: grid;
+    grid-column: 3/2;
+    grid-row: 2/1;
+  }
+  .grids {
+    display: grid;
+    grid-template-columns: 48% 48%;
+  }
+}
+.onvan1 {
+  color: blue;
+}
+
+#atefe, #amir {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

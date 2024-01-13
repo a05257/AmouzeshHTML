@@ -1,0 +1,99 @@
+<link rel="stylesheet" href="./آموزش CSS/font.css">
+.onvan1 {color: blue;} 
+.onvan2 {color: green;}
+.onvan3 {color: red;}
+.onvan4 {color: brown;}
+.title5 {background-color: aliceblue;}
+.title6 {background-color: antiquewhite;}
+.title7 {background-color: azure;}
+.title8 {background-color: beige;}
+div span {font-family: fantasy;}
+a[href*="https"] {color: brown;font-weight: bolder;}
+
+@media (max-width: 26.5625rem) {
+ 
+   #header {
+      font-weight: bold;
+      width:100% ;
+      text-align: center
+      }
+.loren {text-align: left;}
+      .profiles {
+         display: grid;
+  font-size: larger; font-style: italic;
+   line-height: 150%;
+   background-color: rgba(165, 42, 42, 0.336);
+   padding: 5% 2% 5% 2%;
+      }
+      .table, .onvan2{
+         display: grid;
+         justify-items: center;
+         background-color: rgba(165, 42, 42, 0.336);
+         padding: 5% 2% 5% 2%;
+      }
+
+
+      #amir{
+         width: 100%;
+   display: grid;
+   justify-items: center;
+      }
+
+       #atefe {
+         width: 100%;
+         display: grid;
+   justify-items: center;
+      }
+
+      #n1 {
+         background-color: beige;
+         display: grid;
+      }
+}
+
+
+
+@media (min-width: 26.5625rem){
+ 
+   #header {
+      font-weight: bold;
+      width:100% ;
+      text-align: center
+      }
+.loren {text-align: left;}
+      .profiles {
+         display: grid;
+  font-size: larger; font-style: italic;
+   line-height: 150%;
+   background-color: rgba(165, 42, 42, 0.336);
+   padding: 5% 2% 5% 2%;
+      }
+      .table, .onvan2{
+         display: grid;
+         justify-items: center;
+         background-color: rgba(165, 42, 42, 0.336);
+         padding: 5% 2% 5% 2%;
+      }
+
+
+      #amir{
+         width: 100%;
+   display: grid;
+   justify-items: center;
+      }
+
+       #atefe {
+         width: 100%;
+         display: grid;
+   justify-items: center;
+      }
+
+      #n1 {
+         background-color: beige;
+         display: grid;
+      }
+}
+
+
+
+

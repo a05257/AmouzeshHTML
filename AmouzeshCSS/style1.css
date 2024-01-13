@@ -1,0 +1,17 @@
+.onvan4 {
+  color: brown;
+}
+
+#tarahi {
+  text-align: center;
+}
+
+.headerone {
+  display: inline-block;
+}
+
+.profiles {
+  grid-template-columns: 1fr 1fr;
+}
+
+/*# sourceMappingURL=style1.css.map */
